@@ -3,7 +3,7 @@ import java.io.IOException;
 public class Exceptions {
 
     void main() {
-      throw new IOException("JUG Dortmund");
+      throwUnchecked(new IOException("JUG Dortmund"));
     }
 
 
