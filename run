@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+IFS=$'\n\t'
+
+java \
+  --enable-preview \
+  --add-opens java.base/java.lang=ALL-UNNAMED \
+  -XX:AutoBoxCacheMax=500 \
+  "$@"
