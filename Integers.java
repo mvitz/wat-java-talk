@@ -1,8 +1,8 @@
 public class Integers {
 
     void main() {
-        int i = 127;
-        int j = 127;
+        Integer i = 127;
+        Integer j = 127;
         IO.println(i == j);
     }
 
