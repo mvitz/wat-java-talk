@@ -1,6 +1,6 @@
 String[] array = { "JUG Dortmund" };
 
-String[] foo() {
+String foo() [] {
     return array;
 }
 
