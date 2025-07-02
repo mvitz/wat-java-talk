@@ -5,6 +5,7 @@ public class Integers {
         Integer j = 128;
         IO.println(i == j);
         IO.println(1 + 1);
+        System.out.println(1 + 1);
     }
 
 
