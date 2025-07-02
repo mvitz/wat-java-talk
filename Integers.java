@@ -4,6 +4,7 @@ public class Integers {
         Integer i = 128;
         Integer j = 128;
         IO.println(i == j);
+        IO.println(1 + 1);
     }
 
 
