@@ -1,11 +1,16 @@
 public class Strings {
 
     void main() {
-        IO.println("Dortmund");
+        var location = "Dortmund";
+        IO.println(location);
+        var location2 = new String("Dortmund");
+        replaceWith("Dortmund", "Gelsenkirchen");
+        IO.println(location);
+        IO.println(location2);
+        IO.println(new String(location));
     }
 
     static {
-        replaceWith("Dortmund", "Gelsenkirchen");
     }
 
     static void replaceWith(
