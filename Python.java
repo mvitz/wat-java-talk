@@ -5,6 +5,7 @@ public class Python                                                             
     public static void main(String[] args) {
         if (System.out.append("JUG Dortmund\n") == null) {}
         new This(42).print(13);
+        IO.println(Map.of(key = "a", value = "b", key = "c", value = "d"));
     }
 
     public static class This {
