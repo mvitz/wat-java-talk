@@ -1,5 +1,3 @@
-//  50
-
 void main() {
     int foo = foo();
     use(foo); // print JUG Dortmund
@@ -14,6 +12,8 @@ int foo() {
 void use(int i) {
     IO.println("JUG Dortmund");
 }
+
+
 
 
 

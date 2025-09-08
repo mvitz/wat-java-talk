@@ -1,12 +1,12 @@
 public class Strings {
 
-    //  50
-    // 100
-    // 150
-
     void main() {
         IO.println("Dortmund");
     }
+
+
+
+
 
 
 
