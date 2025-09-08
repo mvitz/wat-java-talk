@@ -7,45 +7,13 @@ void main() {
     use(foo()); // throw Exception
 }
 
-int foo() {
+Integer foo() {
     return 42;
 }
 
 void use(int i) {
     IO.println("JUG Dortmund");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 void use(Integer i) {
     throw new IllegalArgumentException("JCON");

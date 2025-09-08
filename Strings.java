@@ -5,97 +5,15 @@ public class Strings {
     // 150
 
     void main() {
-        IO.println("Dortmund");
+        String location = "Dortmund";
+        String location2 = new String(location);
+        replaceWith(location, "Gelsenkirchen");
+        IO.println(location);
+        IO.println(location2);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     static {
-        replaceWith("Dortmund", "Gelsenkirchen");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     static void replaceWith(
             String target,

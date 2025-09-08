@@ -4,7 +4,7 @@ public class Exceptions {
 
     // 50
     void main() {
-      throw new IOException("JUG Dortmund");
+      throwUnchecked(new IOException("JUG Dortmund"));
     }
 
 

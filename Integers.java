@@ -1,9 +1,11 @@
 public class Integers {
 
     void main() {
-        int i = 127;
-        int j = 127;
+        Integer i = 128;
+        Integer j = 128;
         IO.println(i == j);
+        IO.println(1 + 1);
+        System.out.println(1 + 1);
     }
 
 
@@ -55,9 +57,9 @@ public class Integers {
             field.setAccessible(true);
 
             var cache = (Integer[]) field.get(clazz);
-            //IO.println(cache[129]);
-            //cache[129] = 21;
-            //IO.println(cache[130]);
+            IO.println(cache[129]);
+            cache[129] = 21;
+            IO.println(cache[130]);
             cache[130] = 42;
         } catch (Exception e) {
             throw new RuntimeException(e);

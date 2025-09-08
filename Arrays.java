@@ -1,6 +1,6 @@
-String[] array = { "JUG Dortmund" };
+@Foo java.lang.@Foo String@Nullable[@NonNull String[]] array = { "JUG Dortmund" };
 
-String[] foo() {
+String foo() [] {
     return array;
 }
 
