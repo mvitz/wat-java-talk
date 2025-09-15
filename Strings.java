@@ -1,101 +1,8 @@
 public class Strings {
 
-    void main() {
-        IO.println("Dortmund");
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     static {
-        replaceWith("Dortmund", "Gelsenkirchen");
+        //replaceWith("Dortmund", "Gelsenkirchen");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     static void replaceWith(
             String target,
@@ -108,6 +15,107 @@ public class Strings {
             throw new RuntimeException(e);
         }
     }
+
+    void main() {
+        var location = "Dortmund";
+        var location2 = "Dortmund";
+
+        replaceWith("Dortmund", "Gelsenkirchen");
+
+        IO.println(location);
+        IO.println(location2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

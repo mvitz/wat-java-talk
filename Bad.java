@@ -1,8 +1,8 @@
 void main() {
-    IO.println(whatDoesThisPrint(42));
+    IO.println(isEven(100_000));
 }
 
-boolean whatDoesThisPrint(int number) {
+boolean isEven(int number) {
     var result = true;
     for (var i = 0; i < Math.abs(number); i++) {
         result = !result;
