@@ -1,7 +1,7 @@
 public class Strings {
 
     void main() {
-        IO.println("Dortmund");
+        IO.println("Hello");
     }
 
 
@@ -48,7 +48,7 @@ public class Strings {
 
 
     static {
-        replaceWith("Dortmund", "Gelsenkirchen");
+        replaceWith("Hello", "Devoxx");
     }
 
 

@@ -1,5 +1,5 @@
 void main() {
-    Supplier<String> supplier = () -> "JUG Dortmund";
+    Supplier<String> supplier = () -> "Devoxx";
 
     Consumer<String> consumer = value -> {
         IO.println(value);

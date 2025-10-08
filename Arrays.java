@@ -1,4 +1,4 @@
-String[] array = { "JUG Dortmund" };
+String[] array = { "Devoxx" };
 
 String[] foo() {
     return array;

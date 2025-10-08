@@ -1,6 +1,6 @@
 void main() {
     int foo = foo();
-    use(foo); // print JUG Dortmund
+    use(foo); // print Devoxx
 
     use(foo()); // throw Exception
 }
@@ -10,7 +10,7 @@ int foo() {
 }
 
 void use(int i) {
-    IO.println("JUG Dortmund");
+    IO.println("Devoxx");
 }
 
 

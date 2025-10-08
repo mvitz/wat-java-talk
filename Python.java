@@ -3,7 +3,7 @@ import java.util.Map                                                            
 public class Python                                                                                                         {
 
     public static void main(String[] args)                                                                                  {
-        System.out.println("JUG Dortmund")                                                                                  ;
+        System.out.println("Devoxx")                                                                                        ;
                                                                                                                             }
 
 
