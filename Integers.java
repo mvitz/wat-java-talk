@@ -1,52 +1,5 @@
 public class Integers {
 
-    void main() {
-        int i = 127;
-        int j = 127;
-        IO.println(i == j);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     static {
         try {
             var clazz = Class.forName("java.lang.Integer$IntegerCache");
@@ -63,4 +16,53 @@ public class Integers {
             throw new RuntimeException(e);
         }
     }
+    void main() {
+        Integer i = 251;
+        Integer j = 251;
+        IO.println(1 + 1);
+        System.out.println(1 + 1);
+        System.out.println((Integer) ((Integer) 1 + (Integer) 1));
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

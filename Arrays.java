@@ -1,6 +1,6 @@
 String[] array = { "Devoxx" };
 
-String[] foo() {
+String foo() [] {
     return array;
 }
 

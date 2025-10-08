@@ -1,102 +1,7 @@
 public class Strings {
 
-    void main() {
-        IO.println("Hello");
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     static {
-        replaceWith("Hello", "Devoxx");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     static void replaceWith(
             String target,
             String replacement) {
@@ -108,6 +13,104 @@ public class Strings {
             throw new RuntimeException(e);
         }
     }
+    void main() {
+        var hello = "Hello";
+        var hello2 = new String("Hello");
+        replaceWith("Hello", "Devoxx");
+        IO.println(hello);
+        IO.println(hello2);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

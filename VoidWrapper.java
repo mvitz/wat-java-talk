@@ -1,9 +1,13 @@
-void main() {
-    Supplier<String> supplier = () -> "Devoxx";
+public interface VoidSupplier<T> extends Function<Void, T>{}
+public interface VoidConsumer<T> extends Function<T, Void>{}
 
-    Consumer<String> consumer = value -> {
+void main() {
+    VoidSupplier<String> supplier = (_) -> "Devoxx";
+
+    VoidConsumer<String> consumer = value -> {
         IO.println(value);
+        return null;
     };
 
-    consumer.accept(supplier.get());
+    consumer.apply(supplier.apply(null));
 }
