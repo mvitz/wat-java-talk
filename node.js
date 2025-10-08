@@ -1,1 +1,1 @@
-console.log(Array(16).join("wat"))
+console.log(Array(16).join("wat" - 1) + " Batman!")
